@@ -1,0 +1,15 @@
+body{
+    font-family: Poppins;
+}
+.container-fluid{
+    background-color:#0dcaf0;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+img {
+	bottom: 42px;
+	position: relative;
+}
