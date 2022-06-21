@@ -1,8 +1,20 @@
-// var p = document.getElementById('testData').textContent;
-// console.log(p);
-// document.addEventListener('submit', (event)=>{
-//     event.preventDefault();
-//     var name = document.getElementById('name').value;
-//     alert(name);
-//     //console.log(name);
+// $('#carouselExampleCaptions').carousel({
+//     interval: 1
+// })
+// $('.carousel .carousel-item').each(function () {
+//     var minPerSlide = 4;
+//     var next = $(this).next();
+//     if (!next.length) {
+//         next = $(this).siblings(':first');
+//     }
+//     next.children(':first-child').clone().appendTo($(this));
+//
+//     for (var i = 0; i < minPerSlide; i++) {
+//         next = next.next();
+//         if (!next.length) {
+//             next = $(this).siblings(':first');
+//         }
+//
+//         next.children(':first-child').clone().appendTo($(this));
+//     }
 // });
